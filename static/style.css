@@ -1,0 +1,44 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-position: inside;
+    margin-left: 1%;
+}
+
+q:before {
+    content: "\2018";
+}
+
+q:after {
+    content: "\2019";
+}
+
+.centered {
+    text-align: center;
+}
+
+.vertical-line {
+    border-bottom: 1px solid black;
+}
+
+table {
+    width: 99%;
+    text-align: left;
+    margin-left: 1%;
+}
+
+#left {
+    width: 60%;
+}
+
+#right {
+    text-align: right;
+}
