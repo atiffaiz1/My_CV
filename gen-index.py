@@ -3,7 +3,7 @@
 import simpletemplate as st
 
 repl = {}
-for i in ['title', 'education', 'work-experience', 'honors-awards', 'skills', 'publications', 'conferences-presentations', 'references']:
+for i in ['title', 'education', 'work-experience', 'honors-awards', 'skills', 'publications',  'conferences-presentations', 'professional-affiliation', 'references']:
     # Read the html file to add to dictionary
     with open("sections/{}.html".format(i)) as f:
         lines = f.readlines()
